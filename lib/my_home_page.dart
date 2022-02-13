@@ -40,11 +40,22 @@ class _MyHomePageState extends State<MyHomePage> {
                       height: 30,
                     ),
                     DotsIndicatorWidget(),
+                    SizedBox(
+                      height: 30,
+                    ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: [
-                        SecondaryButton(),
-                        PrimaryButton(),
+                        SecondaryButton(
+                          onPress: () {
+                            print('Secondary Button pressed');
+                          },
+                        ),
+                        PrimaryButton(
+                          onPress: () {
+                            print('Primary Button pressed');
+                          },
+                        ),
                       ],
                     )
                   ],
