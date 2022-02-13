@@ -17,7 +17,9 @@ class OnboardingImageWidget extends StatelessWidget {
                 decoration: BoxDecoration(
                   image: DecorationImage(
                     fit: BoxFit.fitWidth,
-                    
+                    image: AssetImage(
+                      'images/fit4.jpg',
+                    ),
                   ),
                 ),
               );
