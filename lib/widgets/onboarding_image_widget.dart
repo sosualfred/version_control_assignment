@@ -13,6 +13,7 @@ class OnboardingImageWidget extends StatelessWidget {
     return Container(
                 height: MediaQuery.of(context).size.height,
                 width: MediaQuery.of(context).size.width,
+                margin: EdgeInsets.only(bottom: 180),
               );
   }
 }
