@@ -8,6 +8,12 @@ class OnboardingHeaderText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text("Weopdsaofsufodiaslcome okay");
+    return Container(
+      margin: EdgeInsets.only(top: 30),
+      child: Text(
+        "Welcome!",
+        style: TextStyle(fontSize: 40, fontWeight: FontWeight.w600),
+      ),
+    );
   }
 }

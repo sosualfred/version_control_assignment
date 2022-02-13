@@ -8,6 +8,15 @@ class OnboardingSubHeadingText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text("My anpme is sla dfhj lasdkjflkads fhaslkdjkf asd");
+    return Column(
+      children: [
+        Text(
+          "Explore the all new way to build",
+          style: TextStyle(fontSize: 20),
+        ),
+        Text("your fitness and find the", style: TextStyle(fontSize: 20)),
+        Text("perfect fit for you", style: TextStyle(fontSize: 20)),
+      ],
+    );
   }
 }
