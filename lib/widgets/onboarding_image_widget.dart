@@ -9,8 +9,18 @@ class OnboardingImageWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return FlutterLogo(
-      size: 2000,
+    return Container(
+      height: MediaQuery.of(context).size.height,
+      width: MediaQuery.of(context).size.width,
+      margin: EdgeInsets.only(bottom: 180),
+      decoration: BoxDecoration(
+        image: DecorationImage(
+          fit: BoxFit.fitWidth,
+          image: AssetImage(
+            'assets/images/fit4.jpg',
+          ),
+        ),
+      ),
     );
   }
 }
