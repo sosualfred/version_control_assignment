@@ -14,7 +14,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text("Hello Snr Dev Sosu - Slim"),
+        child: Text("Hello Sogo"),
       ),
     );
   }
