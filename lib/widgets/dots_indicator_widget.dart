@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 // Widget to be implemented by: Slim
 
-// DONE AT : 1:40 PM - The _boxSetting function receieves color as argument to return a box decoration
+// DONE AT : 1:40 PM - The _boxSetting function receives color as argument to return a box decoration
 class DotsIndicatorWidget extends StatelessWidget {
   const DotsIndicatorWidget({
     Key? key,

@@ -15,7 +15,7 @@ class OnboardingImageWidget extends StatelessWidget {
       margin: EdgeInsets.only(bottom: 180),
       decoration: BoxDecoration(
         image: DecorationImage(
-          fit: BoxFit.fitWidth,
+          fit: BoxFit.fitHeight,
           image: AssetImage(
             'assets/images/fit4.jpg',
           ),
