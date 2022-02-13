@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// Widget to be implemented by: Slim
 class DotsIndicatorWidget extends StatelessWidget {
   const DotsIndicatorWidget({
     Key? key,

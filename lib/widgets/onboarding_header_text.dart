@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// Widget to be implemented by: Lewis
 class OnboardingSubHeadingText extends StatelessWidget {
   const OnboardingSubHeadingText({
     Key? key,

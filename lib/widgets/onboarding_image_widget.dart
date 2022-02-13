@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+// Widget to be implemented by: Sogo
+
 class OnboardingImageWidget extends StatelessWidget {
   const OnboardingImageWidget({
     Key? key,
