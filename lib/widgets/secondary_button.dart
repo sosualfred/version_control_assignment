@@ -17,17 +17,18 @@ class SecondaryButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: ()=> onPress(),
-      child: Container(
-        height: 50,
-        width: 100,
-        padding: const EdgeInsets.all(12.0),
-        decoration: _boxSettings(Colors.white),
-        child: const Text(
-          "SKIP",
-          textAlign: TextAlign.center,
-          style: TextStyle(color: Colors.grey, fontSize: 22),
+    return ElevatedButton(
+      onPressed: () => onPress(),
+      child: const Text(
+        'Skip',
+        style: TextStyle(fontSize: 20, color: Colors.grey),
+      ),
+      style: ElevatedButton.styleFrom(
+        elevation: 0,
+        fixedSize: const Size(100, 50),
+        primary: Colors.white,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(30), // <-- Radius
         ),
       ),
     );
