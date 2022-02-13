@@ -25,7 +25,7 @@ class DotsIndicatorWidget extends StatelessWidget {
         Container(
           width: 30,
           height: 10,
-          decoration: _boxSettings(Colors.blue),
+          decoration: _boxSettings(Colors.purpleAccent),
         ),
         SizedBox(
           width: 10,
