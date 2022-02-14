@@ -29,6 +29,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         children: [
           OnboardingItem(
             controller: controller,
+            dotColor:  Colors.blue,
             image: 'assets/images/fit2.jpg',
             header: "Welcome!",
             subHeader:
@@ -53,6 +54,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             controller: controller,
             image: 'assets/images/fit1.jpg',
             header: "Customize",
+            dotColor: Colors.red,
             subHeader:
                 "Feel free to adjust your workout\n & diet settings according to\nyour comfort.",
             secondaryAction: () {
@@ -72,6 +74,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
           ),
           OnboardingItem(
             controller: controller,
+            dotColor: Colors.purple,
             image: 'assets/images/fit4.jpg',
             header: "Let's go...",
             subHeader:

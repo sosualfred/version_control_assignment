@@ -15,6 +15,7 @@ class OnboardingItem extends StatelessWidget {
     required this.subHeader,
     required this.primaryAction,
     required this.secondaryAction,
+    required this.dotColor,
   }) : super(key: key);
 
   final String image;
@@ -22,6 +23,7 @@ class OnboardingItem extends StatelessWidget {
   final String subHeader;
   final Function primaryAction;
   final Function secondaryAction;
+  final Color dotColor;
 
   final PageController controller;
 
@@ -63,7 +65,7 @@ class OnboardingItem extends StatelessWidget {
                     controller: controller,
                     count: 3,
                     effect: ExpandingDotsEffect(
-                      activeDotColor: Colors.blue,
+                      activeDotColor: dotColor,
                       dotWidth: 10,
                       dotHeight: 10,
                     ),
