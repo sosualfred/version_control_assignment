@@ -33,6 +33,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             header: "Welcome!",
             subHeader:
                 "Explore the all new way to build\nyour fitness and find the\n perfect fit for you",
+               
             secondaryAction: () {
               Navigator.pushReplacement(
                 context,

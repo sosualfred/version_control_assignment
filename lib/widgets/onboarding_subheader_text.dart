@@ -15,7 +15,7 @@ class OnboardingHeaderText extends StatelessWidget {
       margin: EdgeInsets.only(top: 30),
       child: Text(
         content,
-        style: TextStyle(fontSize: 40, fontWeight: FontWeight.w600),
+        style: TextStyle(fontSize: 36, fontWeight: FontWeight.w600),
       ),
     );
   }
