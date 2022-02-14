@@ -34,7 +34,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
           Stack(
             children: [
               OnboardingImageWidget(
-                image: 'assets/images/fit1.jpg',
+                image: 'assets/images/fit2.jpg',
               ),
               Column(
                 mainAxisAlignment: MainAxisAlignment.end,
@@ -56,6 +56,11 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                         SmoothPageIndicator(
                           controller: controller,
                           count: 3,
+                          effect: ExpandingDotsEffect(
+                            activeDotColor: Colors.blue,
+                            dotWidth: 10,
+                            dotHeight: 10,
+                          ),
                         ),
                         SizedBox(
                           height: 30,
@@ -93,7 +98,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
           Stack(
             children: [
               OnboardingImageWidget(
-                image: 'assets/images/fit2.jpg',
+                image: 'assets/images/fit1.jpg',
               ),
               Column(
                 mainAxisAlignment: MainAxisAlignment.end,
@@ -117,6 +122,11 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                         SmoothPageIndicator(
                           controller: controller,
                           count: 3,
+                          effect: ExpandingDotsEffect(
+                            activeDotColor: Colors.red,
+                            dotWidth: 10,
+                            dotHeight: 10,
+                          ),
                         ),
                         SizedBox(
                           height: 30,
@@ -154,7 +164,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
           Stack(
             children: [
               OnboardingImageWidget(
-                image: 'assets/images/fit3.jpg',
+                image: 'assets/images/fit4.jpg',
               ),
               Column(
                 mainAxisAlignment: MainAxisAlignment.end,
@@ -176,8 +186,12 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                         SmoothPageIndicator(
                           controller: controller,
                           count: 3,
+                          effect: ExpandingDotsEffect(
+                            activeDotColor: Colors.purple,
+                            dotWidth: 10,
+                            dotHeight: 10,
+                          ),
                         ),
-                        // DotsIndicatorWidget(),
                         SizedBox(
                           height: 30,
                         ),
