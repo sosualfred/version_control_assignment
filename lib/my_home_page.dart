@@ -27,9 +27,15 @@ class _MyHomePageState extends State<MyHomePage> {
             mainAxisAlignment: MainAxisAlignment.end,
             children: [
               Container(
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.only(
+                      topLeft: Radius.circular(40),
+                      topRight: Radius.circular(40),
+                    )),
                 height: MediaQuery.of(context).size.height * 0.45,
                 width: double.infinity,
-                color: Colors.white,
+                //color: Colors.white,
                 child: Column(
                   children: [
                     OnboardingHeaderText(),
