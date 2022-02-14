@@ -30,8 +30,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.only(
-                      topLeft: Radius.circular(40),
-                      topRight: Radius.circular(40),
+                      topLeft: Radius.circular(50),
+                      topRight: Radius.circular(50),
                     )),
                 height: MediaQuery.of(context).size.height * 0.45,
                 width: double.infinity,
