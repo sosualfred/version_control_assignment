@@ -76,15 +76,19 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             subHeader:
                 "Get the new fitness updates\neveryday & improve\nperformance.",
             secondaryAction: () {
-              controller.nextPage(
-                duration: Duration(milliseconds: 500),
-                curve: Curves.easeOut,
+              Navigator.pushReplacement(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => HomeScreen(),
+                ),
               );
             },
             primaryAction: () {
-              controller.nextPage(
-                duration: Duration(milliseconds: 500),
-                curve: Curves.easeOut,
+              Navigator.pushReplacement(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => HomeScreen(),
+                ),
               );
             },
           ),
