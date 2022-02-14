@@ -4,14 +4,17 @@ import 'package:flutter/material.dart';
 class OnboardingHeaderText extends StatelessWidget {
   const OnboardingHeaderText({
     Key? key,
+    required this.content,
   }) : super(key: key);
+
+  final String content;
 
   @override
   Widget build(BuildContext context) {
     return Container(
       margin: EdgeInsets.only(top: 30),
       child: Text(
-        "Welcome!",
+        content,
         style: TextStyle(fontSize: 40, fontWeight: FontWeight.w600),
       ),
     );

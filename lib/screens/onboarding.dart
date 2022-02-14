@@ -46,11 +46,16 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     color: Colors.white,
                     child: Column(
                       children: [
-                        OnboardingHeaderText(),
+                        OnboardingHeaderText(
+                          content: "Welcome!",
+                        ),
                         SizedBox(
                           height: 30,
                         ),
-                        OnboardingSubHeadingText(),
+                        OnboardingSubHeadingText(
+                          content:
+                              "Explore the all new way to build\nyour fitness and find the\n perfect fit for you",
+                        ),
                         SizedBox(
                           height: 30,
                         ),
@@ -110,12 +115,17 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     color: Colors.white,
                     child: Column(
                       children: [
-                        OnboardingHeaderText(),
+                        OnboardingHeaderText(
+                          content: "Customize",
+                        ),
                         SizedBox(
                           height: 30,
                         ),
 
-                        OnboardingSubHeadingText(),
+                        OnboardingSubHeadingText(
+                          content:
+                              "Feel free to adjust your workout\n & diet settings according to\nyour comfort.",
+                        ),
                         SizedBox(
                           height: 30,
                         ),
@@ -176,11 +186,16 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     color: Colors.white,
                     child: Column(
                       children: [
-                        OnboardingHeaderText(),
+                        OnboardingHeaderText(
+                          content: "Let's go...",
+                        ),
                         SizedBox(
                           height: 30,
                         ),
-                        OnboardingSubHeadingText(),
+                        OnboardingSubHeadingText(
+                          content:
+                              "Get the new fitness updates\neveryday & improve\nperformance.",
+                        ),
                         SizedBox(
                           height: 30,
                         ),
