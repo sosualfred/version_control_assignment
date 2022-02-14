@@ -43,7 +43,13 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   Container(
                     height: MediaQuery.of(context).size.height * 0.45,
                     width: double.infinity,
-                    color: Colors.white,
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.only(
+                        topLeft: Radius.circular(40),
+                        topRight: Radius.circular(40),
+                      ),
+                    ),
                     child: Column(
                       children: [
                         OnboardingHeaderText(
@@ -112,7 +118,13 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   Container(
                     height: MediaQuery.of(context).size.height * 0.45,
                     width: double.infinity,
-                    color: Colors.white,
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.only(
+                        topLeft: Radius.circular(40),
+                        topRight: Radius.circular(40),
+                      ),
+                    ),
                     child: Column(
                       children: [
                         OnboardingHeaderText(
@@ -183,7 +195,13 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   Container(
                     height: MediaQuery.of(context).size.height * 0.45,
                     width: double.infinity,
-                    color: Colors.white,
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.only(
+                        topLeft: Radius.circular(40),
+                        topRight: Radius.circular(40),
+                      ),
+                    ),
                     child: Column(
                       children: [
                         OnboardingHeaderText(
