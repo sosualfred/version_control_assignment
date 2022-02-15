@@ -15,7 +15,8 @@ class OnboardingSubHeadingText extends StatelessWidget {
       children: [
         Text(
           content,
-          style: TextStyle(fontSize: 15, color: Colors.grey),
+          style: TextStyle(fontSize: 16, color: Colors.grey,
+          fontWeight: FontWeight.bold),
           textAlign: TextAlign.center,
         ),
       ],
